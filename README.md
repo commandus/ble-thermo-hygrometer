@@ -173,6 +173,6 @@ Byte 9 - temperature scale value (00). 0 - Celsius, 1 - Fahrenheit.
 
 ## License
 
-MIT License (see LICENSE file). All rights reserved.
+MIT License (see LICENSE file).
 
 Copyright (C) 2026 Andrei Ivanov. All rights reserved.

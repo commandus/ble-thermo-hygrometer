@@ -172,6 +172,6 @@ AA AA A2 00 06 01 0E 00 64 01 00 70 55
 
 ## Лицензтя
 
-MIT License (see LICENSE file). All rights reserved.
+MIT License (see LICENSE file).
 
 Copyright (C) 2026 Andrei Ivanov. All rights reserved.
