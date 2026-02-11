@@ -24,7 +24,11 @@ public:
     {
         std::cout << macAddress2string(device.addr) << ' '
             << device.name << ' '  << device.rssi << "dBm" << std::endl;
-
+        if (device.deviceState == DS_IDLE) {
+            int r = discoverer->open(&device);
+            if (r)
+                std::cerr << "Error open device" << std::endl;
+        }
     }
 
     void onData(DiscoveredDevice &device, uint16_t tempx10, uint16_t hygrox10, uint8_t unitCode) override
